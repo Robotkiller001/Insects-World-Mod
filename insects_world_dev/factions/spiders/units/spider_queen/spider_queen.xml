@@ -189,7 +189,7 @@
 			<type value="repair"/>
 			<name value="repair_skill"/>
 			<ep-cost value="0"/>
-			<speed value="75"/>
+			<speed value="125"/>
 			<anim-speed value="80"/>
 			<animation path="models/spider_queen_build.g3d"/>
                         <attack-boost>
