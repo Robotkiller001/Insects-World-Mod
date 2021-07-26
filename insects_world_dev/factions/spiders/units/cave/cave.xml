@@ -93,6 +93,9 @@
 			<anim-speed value="75"/>
 			<animation path="models/cave.g3d"/>
 			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="upgrade_particles.xml" />
+			</particles>
 		</skill>
 
 	</skills>
@@ -107,6 +110,16 @@
 			<upgrade-requirements/>
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="better_eggs_hatching"/>
-		</command>	
+		</command>
+
+                <command>
+			<type value="upgrade"/>
+			<name value="research_sharpened_fangs"/>
+			<image path="../../upgrades/sharpened_fangs/images/sharpened_fangs.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="sharpened_fangs"/>
+		</command>
 	</commands>
 </unit>

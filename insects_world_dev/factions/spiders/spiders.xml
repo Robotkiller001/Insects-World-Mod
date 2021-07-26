@@ -9,6 +9,7 @@
 	<starting-units>
 		<unit name="spider_queen" amount="1"/>
 		<unit name="worker_spider" amount="4"/>
+		<unit name="poison_spider" amount="0"/>
 	</starting-units>
 	<music value="true" path="music/music_spiders.ogg"/>
 	<ai-behavior>
@@ -18,6 +19,7 @@
 		<building-units>
 			<unit name="egg_sac" minimum="1"/>
 			<unit name="cave" minimum="1"/>
+			<unit name="toxic_puddle" minimum="1"/>
 		</building-units>
 		<upgrades>
 		</upgrades>

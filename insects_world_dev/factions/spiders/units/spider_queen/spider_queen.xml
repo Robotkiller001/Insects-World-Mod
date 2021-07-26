@@ -29,7 +29,7 @@
 		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="gold" amount="400"/>
-			<resource name="food" amount="-14"/>
+			<resource name="food" amount="-16"/>
 		</resource-requirements>
 		<resources-stored>
 			<resource name="gold" amount="2000"/>
@@ -189,7 +189,7 @@
 			<type value="repair"/>
 			<name value="repair_skill"/>
 			<ep-cost value="0"/>
-			<speed value="125"/>
+			<speed value="175"/>
 			<anim-speed value="80"/>
 			<animation path="models/spider_queen_build.g3d"/>
                         <attack-boost>
@@ -251,8 +251,8 @@
 				<sound-file path="sounds/s_attack2.wav"/>
 				<sound-file path="sounds/s_attack3.wav"/>
 			</sound> 
-			<attack-strenght value="250"/>
-			<attack-var value="70"/>
+			<attack-strenght value="220"/>
+			<attack-var value="60"/>
 			<attack-range value="1"/>
 			<attack-type value="castle"/>
 			<attack-fields>
@@ -267,8 +267,8 @@
 			<type value="attack"/>
 			<name value="air_skill"/>
 			<ep-cost value="0"/>
-			<speed value="60"/>
-			<anim-speed value="60"/>
+			<speed value="80"/>
+			<anim-speed value="80"/>
 			<animation path="models/spider_queen_attack.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
@@ -292,17 +292,17 @@
 					<affected-particle-file path="glow_particles.xml"/>
 				</particles>
                         </attack-boost>
-			<sound enabled="true" start-time="0.2">
+			<sound enabled="true" start-time="0.15">
 				<sound-file path="sounds/eagle_attack1.wav"/>
 				<sound-file path="sounds/eagle_attack2.wav"/>
 				<sound-file path="sounds/eagle_attack3.wav"/>
 				<sound-file path="sounds/eagle_attack4.wav"/>
 			</sound>
-			<attack-strenght value="200"/>
-			<attack-var value="60"/>
+			<attack-strenght value="180"/>
+			<attack-var value="50"/>
 			<attack-range value="14"/>
 			<attack-type value="castle"/>
-			<attack-start-time value="0.2"/>
+			<attack-start-time value="0.15"/>
 			<attack-fields>
 				<field value="air"/>
 			</attack-fields>
@@ -409,6 +409,7 @@
 			<buildings>
                                 <building name="egg_sac"/>
                                 <building name="cave"/>
+                                <building name="toxic_puddle"/>
 			</buildings>
 			<start-sound enabled="true">
 				<sound-file path="sounds/s_build.wav"/>
@@ -427,6 +428,7 @@
 			<repaired-units>
 				<unit name="egg_sac"/>
 				<unit name="cave"/>
+                                <unit name="toxic_puddle"/>
 			</repaired-units>
 		</command>
 
@@ -448,6 +450,16 @@
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="web_spitter_spider"/>
+		</command>
+
+		<command>
+			<type value="produce"/>
+			<name value="produce_poison_spider" />
+			<image path="../poison_spider/images/drake_rider.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="poison_spider"/>
 		</command>
 
 	</commands>
