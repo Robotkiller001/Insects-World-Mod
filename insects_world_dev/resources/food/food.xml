@@ -2,7 +2,5 @@
 
 <resource>
 	<image path="images/food.bmp"/>
-	<type value="consumable">
-		<interval value="30"/>
-	</type>
+	<type value="static"/>
 </resource>

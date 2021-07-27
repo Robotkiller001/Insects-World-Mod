@@ -4,7 +4,6 @@
 <faction>
 	<starting-resources>
 		<resource name="gold" amount="400"/>
-		<resource name="food" amount="40"/>
 	</starting-resources>
 	<starting-units>
 		<unit name="spider_queen" amount="1"/>
@@ -17,7 +16,7 @@
 			<unit name="worker_spider" minimum="6"/>
 		</warrior-units>
 		<building-units>
-			<unit name="egg_sac" minimum="1"/>
+			<unit name="egg_sac" minimum="2"/>
 			<unit name="cave" minimum="1"/>
 			<unit name="toxic_puddle" minimum="1"/>
 		</building-units>

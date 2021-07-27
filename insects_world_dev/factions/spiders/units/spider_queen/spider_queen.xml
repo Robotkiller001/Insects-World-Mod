@@ -33,7 +33,6 @@
 		</resource-requirements>
 		<resources-stored>
 			<resource name="gold" amount="2000"/>
-			<resource name="food" amount="200"/>
 		</resources-stored>
 		<image path="images/spider.bmp"/>
 		<image-cancel path="images/spider_cancel.bmp"/>
@@ -126,8 +125,8 @@
 			<name value="produce_skill"/>		
 			<ep-cost value="0" />
 			<speed value="300" />
-			<anim-speed value="175" />
-			<animation path="models/spider_queen_stand.g3d" />
+			<anim-speed value="80" />
+			<animation path="models/spider_queen_produce.g3d" />
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
 				<radius value="12"/>
