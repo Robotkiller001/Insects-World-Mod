@@ -115,6 +115,16 @@
 
                 <command>
 			<type value="upgrade"/>
+			<name value="research_armored_skin"/>
+			<image path="../../upgrades/armored_skin/images/armored_skin.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="armored_skin"/>
+		</command>
+
+                <command>
+			<type value="upgrade"/>
 			<name value="research_sharpened_fangs"/>
 			<image path="../../upgrades/sharpened_fangs/images/sharpened_fangs.bmp"/>
 			<unit-requirements/>
