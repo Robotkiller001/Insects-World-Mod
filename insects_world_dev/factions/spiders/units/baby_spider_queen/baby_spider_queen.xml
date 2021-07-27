@@ -7,7 +7,7 @@
 	<parameters>
 		<size value="2"/>
 		<height value="2"/>
-		<max-hp value="2000" regeneration="6"/>
+		<max-hp value="2500" regeneration="6"/>
 		<max-ep value="0" regeneration="0"/>
 		<armor value="30"/>	
 		<armor-type value="organic"/>
@@ -86,8 +86,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="140"/>
-			<anim-speed value="90"/>
+			<speed value="150"/>
+			<anim-speed value="100"/>
 			<animation path="models/spider_queen_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>
