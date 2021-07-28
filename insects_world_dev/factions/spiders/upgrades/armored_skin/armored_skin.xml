@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no"?>
 
 <upgrade>
-	<image path="images/sharpened_fangs.bmp"/>
+	<image path="images/armored_skin.bmp"/>
 	<image-cancel path="images/spider_cancel.bmp"/>
 	<time value="450"/>
 	<unit-requirements/>

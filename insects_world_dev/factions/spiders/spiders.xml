@@ -8,7 +8,7 @@
 	<starting-units>
 		<unit name="spider_queen" amount="1"/>
 		<unit name="worker_spider" amount="4"/>
-		<unit name="poison_spider" amount="0"/>
+		<unit name="web_spitter_spider" amount="0"/>
 	</starting-units>
 	<music value="true" path="music/music_spiders.ogg"/>
 	<ai-behavior>
@@ -21,6 +21,10 @@
 			<unit name="toxic_puddle" minimum="1"/>
 		</building-units>
 		<upgrades>
+			<upgrade name="better_eggs_hatching"/>
+			<upgrade name="armored_skin"/>
+			<upgrade name="longer_webs"/>
+			<upgrade name="sharpened_fangs"/>
 		</upgrades>
 		<static-values>
 			<static type-name="MinMinWarriorsExpandCpuUltra" value="5"/>

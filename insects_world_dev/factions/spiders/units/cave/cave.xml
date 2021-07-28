@@ -132,5 +132,15 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="sharpened_fangs"/>
 		</command>
+
+                <command>
+			<type value="upgrade"/>
+			<name value="research_longer_webs"/>
+			<image path="../../upgrades/longer_webs/images/longer_webs.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="longer_webs"/>
+		</command>
 	</commands>
 </unit>
