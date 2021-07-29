@@ -475,5 +475,15 @@
 			<produced-unit name="poison_spider"/>
 		</command>
 
+		<command>
+			<type value="produce"/>
+			<name value="produce_explosive_spider" />
+			<image path="../explosive_spider/images/golem.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="explosive_spider"/>
+		</command>
+
 	</commands>
 </unit>

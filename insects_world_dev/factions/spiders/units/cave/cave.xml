@@ -28,7 +28,6 @@
 		<light enabled="false" />
 		<unit-requirements>
 			<unit name="egg_sac" />
-			<unit name="baby_spider_queen" />
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>

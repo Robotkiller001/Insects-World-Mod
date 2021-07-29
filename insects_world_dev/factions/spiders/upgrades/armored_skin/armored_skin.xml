@@ -13,6 +13,7 @@
 		<unit name="worker_spider"/>
 		<unit name="web_spitter_spider"/>
 		<unit name="poison_spider"/>
+		<unit name="explosive_spider"/>
 		<unit name="baby_spider_queen"/>
 		<unit name="spider_queen"/>
 	</effects>
