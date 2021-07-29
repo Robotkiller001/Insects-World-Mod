@@ -17,7 +17,7 @@
 		<cellmap value="false"/>
 		<levels>
 			<level name="mad" kills="6"/>
-			<level name="killer" kills="18"/>
+			<level name="insane" kills="18"/>
 		</levels>
 		<fields>
 			<field value="land"/>
