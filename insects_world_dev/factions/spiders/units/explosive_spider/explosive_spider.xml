@@ -80,6 +80,9 @@
 			<anim-speed value="210"/>
 			<animation path="models/spider_walk.g3d"/>
 			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="move_particles.xml"/>
+			</particles>
 		</skill>
 
 		<skill>
