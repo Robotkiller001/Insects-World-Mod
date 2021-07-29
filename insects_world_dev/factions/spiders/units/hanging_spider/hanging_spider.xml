@@ -97,9 +97,9 @@
 				<sound-file path="sounds/s_attack2.wav"/>
 				<sound-file path="sounds/s_attack3.wav"/>
 			</sound> 
-			<attack-strenght value="160"/>
+			<attack-strenght value="150"/>
 			<attack-var value="40"/>
-			<attack-range value="9"/>
+			<attack-range value="8"/>
 			<attack-type value="arrow"/>
 			<attack-fields>
 				<field value="land"/>
