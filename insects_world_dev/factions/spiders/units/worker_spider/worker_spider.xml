@@ -182,6 +182,8 @@
 			<move-loaded-skill value="move_loaded_skill"/>
 			<harvested-resources>
 				<resource name="gold"/>
+				<resource name="stone"/>
+				<resource name="wood"/>
 			</harvested-resources>
 			<max-load value="25"/>
 			<hits-per-unit value="1"/>
