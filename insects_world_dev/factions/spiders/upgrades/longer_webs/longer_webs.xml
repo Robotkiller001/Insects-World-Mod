@@ -9,6 +9,7 @@
 	<resource-requirements>
 		<resource name="gold" amount="100"/>
 		<resource name="wood" amount="250"/>
+		<resource name="stone" amount="50"/>
 	</resource-requirements>
 	<effects>
 		<unit name="web_spitter_spider"/>
@@ -17,7 +18,7 @@
 	<max-hp value="0"/>
 	<max-ep value="0"/>
 	<sight value="1"/>
-	<attack-strenght value="50"/>
+	<attack-strenght value="40"/>
 	<attack-range value="1"/>
 	<armor value="0"/>
 	<move-speed value="0"/>
