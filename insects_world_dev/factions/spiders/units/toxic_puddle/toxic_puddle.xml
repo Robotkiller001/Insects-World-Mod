@@ -85,10 +85,34 @@
 			<fade value="false"/>
 		</skill>
 
+                <skill>
+			<type value="upgrade"/>
+			<name value="upgrade_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="300"/>
+			<anim-speed value="75"/>
+			<animation path="models/toxic_puddle.g3d"/>
+			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="upgrade_particles.xml" />
+			</particles>
+		</skill>
+
 
 	</skills>
 
 	<commands>
+
+                <command>
+			<type value="upgrade"/>
+			<name value="research_mutated_dna"/>
+			<image path="../../upgrades/mutated_dna/images/mutated_dna.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="mutated_dna"/>
+		</command>
+
 	</commands>
 
 </unit>
