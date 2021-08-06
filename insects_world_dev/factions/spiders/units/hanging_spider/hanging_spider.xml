@@ -28,7 +28,6 @@
 			<unit name="cave" />
 		</unit-requirements>
 		<upgrade-requirements>
-			<upgrade name="better_eggs_hatching"/>
 			<upgrade name="mutated_dna"/>
 		</upgrade-requirements>
 		<resource-requirements>
