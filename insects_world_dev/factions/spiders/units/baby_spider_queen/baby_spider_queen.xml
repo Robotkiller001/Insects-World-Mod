@@ -10,7 +10,7 @@
 		<max-hp value="2500" regeneration="6"/>
 		<max-ep value="0" regeneration="0"/>
 		<armor value="40"/>	
-		<armor-type value="organic"/>
+		<armor-type value="organic2x"/>
 		<max-unit-count value="6"/>			
 		<sight value="12"/>
 		<time value="100"/>
