@@ -7,9 +7,9 @@
 	<parameters>
 		<size value="1"/>
 		<height value="1"/>
-		<max-hp value="200" regeneration="2"/>
+		<max-hp value="300" regeneration="2"/>
 		<max-ep value="0"/>
-		<armor value="0"/>	
+		<armor value="5"/>	
 		<armor-type value="wood"/>				
 		<sight value="10"/>
 		<time value="150"/>	
@@ -77,8 +77,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="320"/>
-			<anim-speed value="210"/>
+			<speed value="340"/>
+			<anim-speed value="220"/>
 			<animation path="models/spider_walk.g3d"/>
 			<sound enabled="false"/>
 			<particles value="true">

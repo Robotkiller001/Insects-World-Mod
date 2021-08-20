@@ -44,7 +44,7 @@
 		<damage-multiplier attack="beat" armor="stone" value="0.55"/>
 		
 		<damage-multiplier attack="energy" armor="organic" value="1.25"/>
-		<damage-multiplier attack="energy" armor="organic2x" value="0.9"/>
+		<damage-multiplier attack="energy" armor="organic2x" value="0.85"/>
 		<damage-multiplier attack="energy" armor="skin" value="1.25"/>
 		<damage-multiplier attack="energy" armor="metal" value="0.75"/>
 		<damage-multiplier attack="energy" armor="stone" value="0.8"/>
