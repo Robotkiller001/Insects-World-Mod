@@ -15,7 +15,7 @@
 	<music value="true" path="music/music_spiders.ogg"/>
 	<ai-behavior>
 		<warrior-units>
-			<unit name="worker_spider" minimum="8"/>
+			<unit name="worker_spider" minimum="12"/>
 		</warrior-units>
 		<building-units>
 			<unit name="egg_sac" minimum="2"/>
