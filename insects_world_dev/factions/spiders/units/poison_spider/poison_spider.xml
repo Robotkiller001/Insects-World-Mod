@@ -7,7 +7,7 @@
 	<parameters>
 		<size value="2"/>
 		<height value="2"/>
-		<max-hp value="900" regeneration="4"/>
+		<max-hp value="1100" regeneration="4"/>
 		<max-ep value="0"/>
 		<armor value="25"/>	
 		<armor-type value="organic2x"/>				
@@ -17,7 +17,7 @@
 		<cellmap value="false"/>
 		<levels>
 			<level name="mad" kills="6"/>
-			<level name="insane" kills="18"/>
+			<level name="killer" kills="18"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -96,7 +96,7 @@
 				<sound-file path="sounds/s_attack2.wav"/>
 				<sound-file path="sounds/s_attack3.wav"/>
 			</sound> 
-			<attack-strenght value="240"/>
+			<attack-strenght value="230"/>
 			<attack-var value="60"/>
 			<attack-range value="14"/>
 			<attack-type value="magic"/>

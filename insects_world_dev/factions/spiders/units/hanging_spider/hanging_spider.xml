@@ -12,11 +12,11 @@
 		<armor value="35"/>	
 		<armor-type value="organic2x"/>				
 		<sight value="14"/>
-		<time value="60"/>	
+		<time value="50"/>	
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
 		<levels>
-			<level name="mad" kills="8"/>
+			<level name="killer" kills="8"/>
 			<level name="poisonous" kills="18"/>
 		</levels>
 		<fields>
