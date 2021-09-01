@@ -9,7 +9,7 @@
 		<height value="1"/>
 		<max-hp value="300" regeneration="2"/>
 		<max-ep value="0"/>
-		<armor value="5"/>	
+		<armor value="0"/>	
 		<armor-type value="wood"/>				
 		<sight value="10"/>
 		<time value="150"/>	
@@ -98,10 +98,10 @@
 				<sound-file path="sounds/s_attack2.wav"/>
 				<sound-file path="sounds/s_attack3.wav"/>
 			</sound> 
-			<attack-strenght value="800"/>
+			<attack-strenght value="750"/>
 			<attack-var value="100"/>
 			<attack-range value="1"/>
-			<attack-type value="impact"/>
+			<attack-type value="acid"/>
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>

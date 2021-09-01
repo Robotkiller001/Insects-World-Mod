@@ -12,6 +12,7 @@
 		<attack-type name="beat"/>
 		<attack-type name="slashing"/>
 		<attack-type name="magic"/>
+		<attack-type name="acid"/>
 		<attack-type name="castle"/>
 	</attack-types>
 	
@@ -60,6 +61,12 @@
 		<damage-multiplier attack="impact" armor="metal" value="1.25"/>
 		<damage-multiplier attack="impact" armor="wood" value="2.00"/>
 		<damage-multiplier attack="impact" armor="stone" value="1.75"/>
+
+		<damage-multiplier attack="acid" armor="organic2x" value="0.8"/>
+		<damage-multiplier attack="acid" armor="leather" value="0.75"/>
+		<damage-multiplier attack="acid" armor="metal" value="1.25"/>
+		<damage-multiplier attack="acid" armor="wood" value="2.00"/>
+		<damage-multiplier attack="acid" armor="stone" value="1.75"/>
 
 	</damage-multipliers>
 </tech-tree>
