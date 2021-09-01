@@ -4,8 +4,8 @@
 <faction>
 	<starting-resources>
 		<resource name="gold" amount="400"/>
-		<resource name="wood" amount="200"/>
-		<resource name="stone" amount="200"/>
+		<resource name="wood" amount="300"/>
+		<resource name="stone" amount="300"/>
 	</starting-resources>
 	<starting-units>
 		<unit name="spider_queen" amount="1"/>
