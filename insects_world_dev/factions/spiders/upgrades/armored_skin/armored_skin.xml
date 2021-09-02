@@ -11,6 +11,7 @@
 		<resource name="stone" amount="250"/>
 	</resource-requirements>
 	<effects>
+		<unit name="armored_spider"/>
 		<unit name="web_spitter_spider"/>
 		<unit name="poison_spider"/>
 		<unit name="baby_spider_queen"/>

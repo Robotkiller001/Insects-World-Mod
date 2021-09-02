@@ -29,8 +29,8 @@
 			<upgrade name="sharpened_fangs"/>
 		</upgrades>
 		<static-values>
-			<static type-name="MinMinWarriorsExpandCpuUltra" value="5"/>
-			<static type-name="MinMinWarriorsExpandCpuMega" value="12"/>
+			<static type-name="MinMinWarriorsExpandCpuUltra" value="8"/>
+			<static type-name="MinMinWarriorsExpandCpuMega" value="18"/>
 		</static-values>
 	</ai-behavior>	
 </faction>
