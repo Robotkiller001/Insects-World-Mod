@@ -415,7 +415,7 @@
 
 		<command>
 			<type value="build"/>
-			<name value="build_hives"/>
+			<name value="build_eggs"/>
 			<image path="images/spider_build_basic.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
@@ -465,6 +465,16 @@
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="web_spitter_spider"/>
+		</command>
+
+		<command>
+			<type value="produce"/>
+			<name value="produce_armored_spider" />
+			<image path="../armored_spider/images/guard.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="armored_spider"/>
 		</command>
 
 		<command>

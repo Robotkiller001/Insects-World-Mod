@@ -15,7 +15,7 @@
     	<energy-var value="3" />
 
 	<trajectory type="linear">
-		<speed value="8.0"/>
+		<speed value="9.0"/>
 	</trajectory>
 </projectile-particle-system>
 

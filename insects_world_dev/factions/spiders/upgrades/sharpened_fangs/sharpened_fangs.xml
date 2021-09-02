@@ -12,7 +12,7 @@
 		<resource name="stone" amount="100"/>
 	</resource-requirements>
 	<effects>
-		<unit name="worker_spider"/>
+		<unit name="armored_spider"/>
 		<unit name="baby_spider_queen"/>
 		<unit name="spider_queen"/>
 	</effects>
