@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/mutated_dna.bmp"/>
 	<image-cancel path="images/spider_cancel.bmp"/>
-	<time value="400"/>
+	<time value="450"/>
 	<unit-requirements/>
 	<upgrade-requirements>
 		<upgrade name="better_eggs_hatching"/>
@@ -17,6 +17,7 @@
 		<unit name="armored_spider"/>
 		<unit name="web_spitter_spider"/>
 		<unit name="poison_spider"/>
+		<unit name="hanging_spider"/>
 		<unit name="baby_spider_queen"/>
 		<unit name="spider_queen"/>
 	</effects>
