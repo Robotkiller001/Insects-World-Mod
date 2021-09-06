@@ -13,7 +13,7 @@
 		<armor-type value="organic2x"/>
 		<max-unit-count value="6"/>			
 		<sight value="12"/>
-		<time value="100"/>
+		<time value="90"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>

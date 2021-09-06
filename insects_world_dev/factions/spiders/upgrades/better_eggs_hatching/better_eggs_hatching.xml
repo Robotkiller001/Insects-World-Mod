@@ -7,7 +7,7 @@
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
-		<resource name="gold" amount="200"/>
+		<resource name="gold" amount="150"/>
 		<resource name="wood" amount="150"/>
 		<resource name="stone" amount="100"/>
 	</resource-requirements>
@@ -22,5 +22,5 @@
 	<attack-range value="0"/>
 	<armor value="0"/>
 	<move-speed value="0"/>
-	<production-speed value="150"/>
+	<production-speed value="100"/>
 </upgrade>

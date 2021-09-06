@@ -12,7 +12,7 @@
 		<armor value="10"/>	
 		<armor-type value="organic2x"/>				
 		<sight value="12"/>
-		<time value="60"/>	
+		<time value="55"/>	
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
 		<levels>
