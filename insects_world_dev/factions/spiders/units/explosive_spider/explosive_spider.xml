@@ -114,7 +114,7 @@
 			</projectile>
 			<splash value="true">
 				<radius value="4"/>
-				<damage-all value="true"/>
+				<damage-all value="false"/>
 				<particle value="true" path="acid_splash.xml"/>
 			</splash>
 		</skill>

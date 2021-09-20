@@ -118,7 +118,7 @@
 			</projectile>
 			<splash value="true">
 				<radius value="2"/>
-				<damage-all value="true"/>
+				<damage-all value="false"/>
 				<particle value="true" path="fire_splash.xml"/>
 			</splash>
 			<particles value="true">
