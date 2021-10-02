@@ -33,7 +33,7 @@
 			<resource name="food" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>
-		<image path="images/battlemage.bmp"/>
+		<image path="images/web_spitter_spider.bmp"/>
 		<image-cancel path="../spider_queen/images/spider_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="false"/>
@@ -185,7 +185,7 @@
 		<command>
 			<type value="morph"/>
 			<name value="promote_hanging_spider"/>
-			<image path="../hanging_spider/images/dragon.bmp"/>
+			<image path="../hanging_spider/images/hanging_spider.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<morph-skill value="morph_skill"/>

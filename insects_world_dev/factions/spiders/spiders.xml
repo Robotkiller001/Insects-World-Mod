@@ -10,7 +10,8 @@
 	<starting-units>
 		<unit name="spider_queen" amount="1"/>
 		<unit name="worker_spider" amount="4"/>
-		<unit name="explosive_spider" amount="0"/>
+		<unit name="egg_sac" amount="0"/>
+		<unit name="armored_spider" amount="0"/>
 	</starting-units>
 	<music value="true" path="music/music_spiders.ogg"/>
 	<ai-behavior>

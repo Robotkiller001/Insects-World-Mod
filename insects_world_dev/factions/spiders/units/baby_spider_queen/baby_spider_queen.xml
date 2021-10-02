@@ -35,7 +35,7 @@
 		</resource-requirements>
 		<resources-stored>
 		</resources-stored>
-		<image path="images/spider.bmp"/>
+		<image path="images/baby_spider_queen.bmp"/>
 		<image-cancel path="images/spider_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="false"/>
@@ -214,7 +214,7 @@
 		<command>
 			<type value="morph"/>
 			<name value="grow_up"/>
-			<image path="../spider_queen/images/spider.bmp"/>
+			<image path="../spider_queen/images/spider_queen.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<morph-skill value="morph_skill"/>

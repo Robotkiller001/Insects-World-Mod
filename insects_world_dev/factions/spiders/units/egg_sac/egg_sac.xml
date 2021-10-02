@@ -35,7 +35,7 @@
 		</resource-requirements>
 		<resources-stored>
 		</resources-stored>
-		<image path="images/energy_source.bmp"/>
+		<image path="images/egg_sac.bmp"/>
 		<image-cancel path="../spider_queen/images/spider_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="false"/>
@@ -102,7 +102,7 @@
 		<command>
 			<type value="morph"/>
 			<name value="hatch"/>
-			<image path="../baby_spider_queen/images/spider.bmp"/>
+			<image path="../baby_spider_queen/images/baby_spider_queen.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<morph-skill value="morph_skill"/>

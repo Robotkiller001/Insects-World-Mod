@@ -36,7 +36,7 @@
 			<resource name="stone" amount="1000"/>
 			<resource name="wood" amount="1600"/>
 		</resources-stored>
-		<image path="images/spider.bmp"/>
+		<image path="images/spider_queen.bmp"/>
 		<image-cancel path="images/spider_cancel.bmp"/>
 		<meeting-point value="true" image-path="images/meeting_point.bmp"/>
 		<selection-sounds enabled="false"/>
@@ -60,6 +60,7 @@
 				<radius value="12"/>
                         	<target value="faction" include-self="false">
 					<unit-type name="worker_spider"/>
+					<unit-type name="armored_spider"/>
 					<unit-type name="web_spitter_spider"/>
 					<unit-type name="small_spider"/>
 					<unit-type name="poison_spider"/>
@@ -104,6 +105,7 @@
 				<radius value="12"/>
                         	<target value="faction" include-self="false">
 					<unit-type name="worker_spider"/>
+					<unit-type name="armored_spider"/>
 					<unit-type name="web_spitter_spider"/>
 					<unit-type name="small_spider"/>
 					<unit-type name="poison_spider"/>
@@ -138,6 +140,7 @@
 				<radius value="12"/>
                         	<target value="faction" include-self="false">
 					<unit-type name="worker_spider"/>
+					<unit-type name="armored_spider"/>
 					<unit-type name="web_spitter_spider"/>
 					<unit-type name="small_spider"/>
 					<unit-type name="poison_spider"/>
@@ -172,6 +175,7 @@
 				<radius value="12"/>
                         	<target value="faction" include-self="false">
 					<unit-type name="worker_spider"/>
+					<unit-type name="armored_spider"/>
 					<unit-type name="web_spitter_spider"/>
 					<unit-type name="small_spider"/>
 					<unit-type name="poison_spider"/>
@@ -206,6 +210,7 @@
 				<radius value="12"/>
                         	<target value="faction" include-self="false">
 					<unit-type name="worker_spider"/>
+					<unit-type name="armored_spider"/>
 					<unit-type name="web_spitter_spider"/>
 					<unit-type name="small_spider"/>
 					<unit-type name="poison_spider"/>
@@ -240,6 +245,7 @@
 				<radius value="12"/>
                         	<target value="faction" include-self="false">
 					<unit-type name="worker_spider"/>
+					<unit-type name="armored_spider"/>
 					<unit-type name="web_spitter_spider"/>
 					<unit-type name="small_spider"/>
 					<unit-type name="poison_spider"/>
@@ -288,6 +294,7 @@
 				<radius value="12"/>
                         	<target value="faction" include-self="false">
 					<unit-type name="worker_spider"/>
+					<unit-type name="armored_spider"/>
 					<unit-type name="web_spitter_spider"/>
 					<unit-type name="small_spider"/>
 					<unit-type name="poison_spider"/>
@@ -450,7 +457,7 @@
 		<command>
 			<type value="produce"/>
 			<name value="produce_worker_spider" />
-			<image path="../worker_spider/images/initiate.bmp" />
+			<image path="../worker_spider/images/worker_spider.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
@@ -460,7 +467,7 @@
 		<command>
 			<type value="produce"/>
 			<name value="produce_web_spitter_spider" />
-			<image path="../web_spitter_spider/images/battlemage.bmp" />
+			<image path="../web_spitter_spider/images/web_spitter_spider.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
@@ -470,7 +477,7 @@
 		<command>
 			<type value="produce"/>
 			<name value="produce_armored_spider" />
-			<image path="../armored_spider/images/guard.bmp" />
+			<image path="../armored_spider/images/armored_spider.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
@@ -480,7 +487,7 @@
 		<command>
 			<type value="produce"/>
 			<name value="produce_poison_spider" />
-			<image path="../poison_spider/images/drake_rider.bmp" />
+			<image path="../poison_spider/images/poison_spider.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
@@ -490,7 +497,7 @@
 		<command>
 			<type value="produce"/>
 			<name value="produce_explosive_spider" />
-			<image path="../explosive_spider/images/golem.bmp" />
+			<image path="../explosive_spider/images/explosive_spider.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
