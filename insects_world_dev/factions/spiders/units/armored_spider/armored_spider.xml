@@ -7,12 +7,12 @@
 	<parameters>
 		<size value="1"/>
 		<height value="1"/>
-		<max-hp value="900" regeneration="2"/>
+		<max-hp value="800" regeneration="2"/>
 		<max-ep value="0"/>
-		<armor value="20"/>	
+		<armor value="15"/>	
 		<armor-type value="leather"/>
 		<sight value="9"/>
-		<time value="35"/>
+		<time value="30"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
@@ -28,7 +28,7 @@
 		<upgrade-requirements>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="150"/>
+			<resource name="gold" amount="125"/>
 			<resource name="food" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
