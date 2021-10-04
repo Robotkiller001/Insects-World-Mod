@@ -88,7 +88,7 @@
 
 			<type value="attack"/>
 			<name value="attack_skill"/>
-			<ep-cost value="300"/>
+			<ep-cost value="400"/>
 			<speed value="50"/>
 			<anim-speed value="55"/>
 			<animation path="models/magic_bee_attack.g3d"/>

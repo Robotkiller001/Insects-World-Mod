@@ -89,7 +89,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>
-			<ep-cost value="250"/>
+			<ep-cost value="300"/>
 			<speed value="40"/>
 			<anim-speed value="40"/>
 			<animation path="models/queen_bee_attack.g3d"/>
