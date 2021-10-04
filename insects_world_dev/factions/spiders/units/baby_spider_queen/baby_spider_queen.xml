@@ -106,9 +106,11 @@
 				<radius value="10"/>
                         	<target value="faction" include-self="false">
 					<unit-type name="worker_spider"/>
+					<unit-type name="armored_spider"/>
 					<unit-type name="web_spitter_spider"/>
 					<unit-type name="small_spider"/>
 					<unit-type name="poison_spider"/>
+					<unit-type name="explosive_spider"/>
 					<unit-type name="hanging_spider"/>
 				</target>
 				<max-hp value="0" regeneration="3"/>

@@ -64,6 +64,7 @@
 					<unit-type name="web_spitter_spider"/>
 					<unit-type name="small_spider"/>
 					<unit-type name="poison_spider"/>
+					<unit-type name="explosive_spider"/>
 					<unit-type name="hanging_spider"/>
 					<unit-type name="baby_spider_queen"/>
 				</target>
@@ -109,6 +110,7 @@
 					<unit-type name="web_spitter_spider"/>
 					<unit-type name="small_spider"/>
 					<unit-type name="poison_spider"/>
+					<unit-type name="explosive_spider"/>
 					<unit-type name="hanging_spider"/>
 					<unit-type name="baby_spider_queen"/>
 				</target>
@@ -144,6 +146,7 @@
 					<unit-type name="web_spitter_spider"/>
 					<unit-type name="small_spider"/>
 					<unit-type name="poison_spider"/>
+					<unit-type name="explosive_spider"/>
 					<unit-type name="hanging_spider"/>
 					<unit-type name="baby_spider_queen"/>
 				</target>
@@ -179,6 +182,7 @@
 					<unit-type name="web_spitter_spider"/>
 					<unit-type name="small_spider"/>
 					<unit-type name="poison_spider"/>
+					<unit-type name="explosive_spider"/>
 					<unit-type name="hanging_spider"/>
 					<unit-type name="baby_spider_queen"/>
 				</target>
@@ -214,6 +218,7 @@
 					<unit-type name="web_spitter_spider"/>
 					<unit-type name="small_spider"/>
 					<unit-type name="poison_spider"/>
+					<unit-type name="explosive_spider"/>
 					<unit-type name="hanging_spider"/>
 					<unit-type name="baby_spider_queen"/>
 				</target>
@@ -249,6 +254,7 @@
 					<unit-type name="web_spitter_spider"/>
 					<unit-type name="small_spider"/>
 					<unit-type name="poison_spider"/>
+					<unit-type name="explosive_spider"/>
 					<unit-type name="hanging_spider"/>
 					<unit-type name="baby_spider_queen"/>
 				</target>
@@ -298,6 +304,7 @@
 					<unit-type name="web_spitter_spider"/>
 					<unit-type name="small_spider"/>
 					<unit-type name="poison_spider"/>
+					<unit-type name="explosive_spider"/>
 					<unit-type name="hanging_spider"/>
 					<unit-type name="baby_spider_queen"/>
 				</target>
@@ -358,7 +365,7 @@
 			<spawn start-time="0.8">
 				<unit value="small_spider"/>
 				<amount value="4"/>
-				<health-percent min="60" max="80"/>
+				<health-percent min="70" max="90"/>
 				<probability value="100"/>
 			</spawn>		
 			<fade value="false"/>

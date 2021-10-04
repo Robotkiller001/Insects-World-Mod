@@ -7,11 +7,11 @@
 	<parameters>
 		<size value="1"/>
 		<height value="1"/>
-		<max-hp value="1000" regeneration="2"/>
+		<max-hp value="900" regeneration="3"/>
 		<max-ep value="0"/>
-		<armor value="25"/>	
+		<armor value="30"/>	
 		<armor-type value="organic"/>				
-		<sight value="8"/>
+		<sight value="9"/>
 		<time value="0"/>	
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
@@ -83,8 +83,8 @@
 				<sound-file path="sounds/s_attack2.wav"/>
 				<sound-file path="sounds/s_attack3.wav"/>
 			</sound> 
-			<attack-strenght value="130"/>
-			<attack-var value="30"/>
+			<attack-strenght value="140"/>
+			<attack-var value="40"/>
 			<attack-range value="1"/>
 			<attack-type value="beat"/>
 			<attack-fields>
