@@ -17,7 +17,7 @@
 		<unit name="queen_bee"/>
 	</effects>
 	<max-hp value="200"/>
-	<max-ep value="500" regeneration="5"/>
+	<max-ep value="750" regeneration="5"/>
 	<sight value="0"/>
 	<attack-strenght value="70"/>
 	<attack-range value="1"/>
