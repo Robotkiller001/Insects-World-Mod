@@ -178,6 +178,7 @@
 				<unit name="apiary"/>
 				<unit name="defence_bee_tower"/>
 				<unit name="bee_crossbow"/>
+				<unit name="bee_battlemachine"/>
 			</repaired-units>
 		</command>
 
@@ -230,6 +231,7 @@
 			<build-skill value="build_skill"/>
 			<buildings>
                                 <building name="bee_crossbow"/>
+                                <building name="bee_battlemachine"/>
 			</buildings>
 			<start-sound enabled="true">
 				<sound-file path="sounds/bee2.wav"/>
