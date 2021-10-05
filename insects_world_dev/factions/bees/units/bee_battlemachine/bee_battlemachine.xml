@@ -211,7 +211,7 @@
 		<command>
 			<type value="attack"/>
 			<name value="axe_attack"/>
-			<image path="images/bee_crossbow_attack.bmp"/>
+			<image path="images/bee_battlemachine_attack.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
@@ -221,7 +221,7 @@
 		<command>
 			<type value="attack"/>
 			<name value="fire_arrow"/>
-			<image path="images/bee_crossbow_attack.bmp"/>
+			<image path="images/bee_battlemachine_airattack.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
