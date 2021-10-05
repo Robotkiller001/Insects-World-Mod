@@ -211,27 +211,8 @@
                                 <building name="beehive"/>
 				<building name="beehive_barrack"/>
 				<building name="apiary"/>
+				<building name="bee_factory"/>
 				<building name="defence_bee_tower"/>
-			</buildings>
-			<start-sound enabled="true">
-				<sound-file path="sounds/bee2.wav"/>
-			</start-sound>
-			<built-sound enabled="true">
-				<sound-file path="sounds/bee1.wav"/>
-			</built-sound>
-		</command>
-
-		<command>
-			<type value="build"/>
-			<name value="hive_mechanic"/>
-			<image path="images/hive_mechanic.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<move-skill value="move_skill"/>
-			<build-skill value="build_skill"/>
-			<buildings>
-                                <building name="bee_crossbow"/>
-                                <building name="bee_battlemachine"/>
 			</buildings>
 			<start-sound enabled="true">
 				<sound-file path="sounds/bee2.wav"/>

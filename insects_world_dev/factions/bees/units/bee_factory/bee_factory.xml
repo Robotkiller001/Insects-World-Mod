@@ -1,0 +1,163 @@
+<?xml version="1.0" standalone="no" ?>
+
+<unit>
+	<parameters>
+		<size value="4" />
+		<height value="4" />
+		<ai-build-size value="6"/>
+		<max-hp value="9000" regeneration="0"/>
+		<max-ep value="0" />
+		<armor value="0" />
+		<armor-type value="wood"/>
+		<sight value="4" />
+		<time value="140" />
+		<multi-selection value="true" />
+		<uniform-selection value="true"/>
+		<cellmap value="true">
+			<row value="1111"/>
+			<row value="1111"/>
+			<row value="0000"/>
+			<row value="0000"/>
+		</cellmap>
+		<levels/>
+		<fields>
+			<field value="land" />
+		</fields>
+		<properties>
+		</properties>
+		<light enabled="false"/>
+		<rotationAllowed value="true" />
+		<unit-requirements>
+			<unit name="apiary" />
+			<unit name="beehive_barrack" />
+		</unit-requirements>
+		<upgrade-requirements/>
+		<resource-requirements>
+			<resource name="pollen" amount="450" />
+		</resource-requirements>
+		<resources-stored />
+		<image path="images/bee_factory.png" />
+		<image-cancel path="../archer_bee/images/bee_cancel.bmp"/>
+		<meeting-point value="true" image-path="images/meeting_point.bmp"/>
+		<selection-sounds enabled="true">
+			<sound path="/sounds/bee5.wav" />
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="/sounds/bee5.wav" />
+		</command-sounds>
+	</parameters>
+	
+	<skills>
+			<skill>
+			<type value="stop" />
+			<name value="stop_skill" />
+			<ep-cost value="0" />
+			<speed value="1000" />
+			<anim-speed value="60" />
+			<animation path="models/bee_factory.g3d" />
+			<sound enabled="false" />
+		</skill>
+
+		<skill>
+			<type value="upgrade" />
+			<name value="upgrade_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="100" />
+			<animation path="models/bee_factory.g3d" />
+			<particles value="true">
+				<particle-file path="smoke_particles.xml"/>
+				<particle-file path="upgrade_particles.xml" />
+			</particles>
+			<sound enabled="true" start-time="0.1">
+				<sound-file path="$COMMONDATAPATH/sounds/anvil1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/anvil2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/anvil3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/anvil4.wav"/>
+			</sound>
+		</skill>
+
+		<skill>
+			<type value="produce" />
+			<name value="bee_crossbow_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="100" />
+			<animation path="models/bee_factory_produce1.g3d" />
+			<sound enabled="true" start-time="0.1">
+				<sound-file path="$COMMONDATAPATH/sounds/anvil1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/anvil2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/anvil3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/anvil4.wav"/>
+			</sound>
+		</skill>
+
+		<skill>
+			<type value="produce" />
+			<name value="bee_battlemachine_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="100" />
+			<animation path="models/bee_factory_produce2.g3d" />
+			<sound enabled="true" start-time="0.1">
+				<sound-file path="$COMMONDATAPATH/sounds/anvil1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/anvil2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/anvil3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/anvil4.wav"/>
+			</sound>
+		</skill>
+
+		<skill>
+			<type value="be_built" />
+			<name value="be_built_skill" />
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/bee_factory_build.g3d" />
+			<sound enabled="false" />
+		</skill>
+
+		<skill>
+			<type value="die" />
+			<name value="die_skill"/>
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/bee_factory_dead.g3d" />
+			<particles value="true">
+				<particle-file path="smoke_particles.xml"/>
+				<particle-file path="glow_particles.xml"/>
+			</particles>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/medium_building_fall.wav"/>
+			</sound>
+			<fade value="false" />
+		</skill>
+
+	</skills>
+	
+	<commands>
+
+		<command>
+			<type value="produce"/>
+			<name value="build_bee_crossbow" />
+			<image path="../bee_crossbow/images/bee_crossbow.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="bee_crossbow_skill"/>
+			<produced-unit name="bee_crossbow"/>
+		</command>
+
+		<command>
+			<type value="produce"/>
+			<name value="build_bee_battlemachine" />
+			<image path="../bee_battlemachine/images/bee_battlemachine.png" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="bee_battlemachine_skill"/>
+			<produced-unit name="bee_battlemachine"/>
+		</command>
+
+	</commands>
+
+</unit>

@@ -10,7 +10,7 @@
 		<armor value="50"/>
 		<armor-type value="leather"/>
 		<sight value="12"/>
-		<time value="160"/>
+		<time value="140"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
@@ -80,16 +80,6 @@
 			</particles>
                         </attack-boost>
 			<sound enabled="false"/>
-		</skill>
-
-		<skill>
-			<type value="be_built" />
-			<name value="be_built_skill"/>		
-			<ep-cost value="0" />
-			<speed value="300" />
-			<anim-speed value="300" />
-			<animation path="models/bee_battlemachine_build.g3d" />
-			<sound enabled="false" />
 		</skill>
 
 		<skill>

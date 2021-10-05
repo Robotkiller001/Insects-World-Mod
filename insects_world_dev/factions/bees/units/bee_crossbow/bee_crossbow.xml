@@ -10,7 +10,7 @@
 		<armor value="20"/>
 		<armor-type value="wood"/>
 		<sight value="12"/>
-		<time value="120"/>
+		<time value="100"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
@@ -79,16 +79,6 @@
 			</particles>
                         </attack-boost>
 			<sound enabled="false"/>
-		</skill>
-
-		<skill>
-			<type value="be_built" />
-			<name value="be_built_skill"/>		
-			<ep-cost value="0" />
-			<speed value="300" />
-			<anim-speed value="300" />
-			<animation path="models/beebow_build.g3d" />
-			<sound enabled="false" />
 		</skill>
 
 		<skill>
