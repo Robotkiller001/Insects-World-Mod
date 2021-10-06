@@ -102,7 +102,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="models/beehive_barrack_die.g3d" />
+			<animation path="models/beehive_barrack_dead.g3d" />
 			<particles value="true">
 				<particle-file path="smoke_particles.xml"/>
 			</particles>
