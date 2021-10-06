@@ -176,6 +176,7 @@
 				<unit name="beehive"/>
 				<unit name="beehive_barrack"/>
 				<unit name="apiary"/>
+				<unit name="bee_factory"/>
 				<unit name="defence_bee_tower"/>
 				<unit name="bee_crossbow"/>
 				<unit name="bee_battlemachine"/>

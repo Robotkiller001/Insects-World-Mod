@@ -75,7 +75,7 @@
 			<ep-cost value="0"/>
 			<speed value="180"/>
 			<anim-speed value="180"/>
-			<animation path="models/defence_bee_tower.g3d"/>
+			<animation path="models/defence_bee_tower_attack.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/bee1.wav"/>
 				<sound-file path="sounds/bee2.wav"/>
