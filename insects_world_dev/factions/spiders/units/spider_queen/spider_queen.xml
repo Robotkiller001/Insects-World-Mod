@@ -438,6 +438,7 @@
 			<buildings>
                                 <building name="egg_sac"/>
                                 <building name="cave"/>
+				<building name="web_tower"/>
                                 <building name="toxic_puddle"/>
 			</buildings>
 			<start-sound enabled="true">
@@ -457,6 +458,7 @@
 			<repaired-units>
 				<unit name="egg_sac"/>
 				<unit name="cave"/>
+				<unit name="web_tower"/>
                                 <unit name="toxic_puddle"/>
 			</repaired-units>
 		</command>
