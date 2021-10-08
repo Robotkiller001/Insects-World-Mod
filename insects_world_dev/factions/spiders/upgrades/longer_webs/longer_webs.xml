@@ -14,6 +14,7 @@
 	<effects>
 		<unit name="web_spitter_spider"/>
 		<unit name="hanging_spider"/>
+		<unit name="spider_queen"/>
 	</effects>
 	<max-hp value="0"/>
 	<max-ep value="0"/>

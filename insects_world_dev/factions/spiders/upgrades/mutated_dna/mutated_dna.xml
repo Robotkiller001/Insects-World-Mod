@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/mutated_dna.bmp"/>
 	<image-cancel path="images/spider_cancel.bmp"/>
-	<time value="450"/>
+	<time value="500"/>
 	<unit-requirements/>
 	<upgrade-requirements>
 		<upgrade name="better_eggs_hatching"/>
@@ -11,7 +11,7 @@
 	<resource-requirements>
 		<resource name="gold" amount="150"/>
 		<resource name="wood" amount="300"/>
-		<resource name="stone" amount="100"/>
+		<resource name="stone" amount="200"/>
 	</resource-requirements>
 	<effects>
 		<unit name="armored_spider"/>
@@ -21,12 +21,12 @@
 		<unit name="baby_spider_queen"/>
 		<unit name="spider_queen"/>
 	</effects>
-	<max-hp value="100"/>
+	<max-hp value="200"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
-	<attack-strenght value="20"/>
+	<attack-strenght value="30"/>
 	<attack-range value="0"/>
-	<armor value="10"/>
-	<move-speed value="10"/>
+	<armor value="15"/>
+	<move-speed value="20"/>
 	<production-speed value="0"/>
 </upgrade>

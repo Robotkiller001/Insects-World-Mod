@@ -240,60 +240,10 @@
 
 		<skill>
 			<type value="attack"/>
-			<name value="attack_skill"/>		
+			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="80"/>
-			<anim-speed value="80"/>
-			<animation path="models/spider_queen_attack.g3d"/>
-                        <attack-boost>
-				<allow-multiple-boosts value="false" />
-				<radius value="12"/>
-                        	<target value="faction" include-self="false">
-					<unit-type name="worker_spider"/>
-					<unit-type name="armored_spider"/>
-					<unit-type name="web_spitter_spider"/>
-					<unit-type name="small_spider"/>
-					<unit-type name="poison_spider"/>
-					<unit-type name="explosive_spider"/>
-					<unit-type name="hanging_spider"/>
-					<unit-type name="baby_spider_queen"/>
-				</target>
-				<max-hp value="0" regeneration="6"/>
-				<max-ep value="0"/>
-				<sight value="0"/>
-				<attack-strenght value="40" value-percent-multiplier="true"/>
-				<attack-range value="0"/>
-				<armor value="15"/>
-				<move-speed value="0"/>
-				<production-speed value="0"/>
-				<particles value="true">
-				<!--originator-particle-file path="glow_particles.xml"/-->
-					<affected-particle-file path="glow_particles.xml"/>
-				</particles>
-                        </attack-boost>
-			<sound enabled="true" start-time="0.1">
-				<sound-file path="sounds/s_attack1.wav"/>
-				<sound-file path="sounds/s_attack2.wav"/>
-				<sound-file path="sounds/s_attack3.wav"/>
-			</sound> 
-			<attack-strenght value="220"/>
-			<attack-var value="60"/>
-			<attack-range value="1"/>
-			<attack-type value="castle"/>
-			<attack-fields>
-				<field value="land"/>
-			</attack-fields>
-			<attack-start-time value="0.1"/>
-			<projectile value="false"/>
-			<splash value="false"/>
-		</skill>
-
-		<skill>
-			<type value="attack"/>
-			<name value="air_skill"/>
-			<ep-cost value="0"/>
-			<speed value="80"/>
-			<anim-speed value="80"/>
+			<speed value="70"/>
+			<anim-speed value="70"/>
 			<animation path="models/spider_queen_attack.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
@@ -329,10 +279,11 @@
 			</sound>
 			<attack-strenght value="180"/>
 			<attack-var value="50"/>
-			<attack-range value="14"/>
+			<attack-range value="10"/>
 			<attack-type value="castle"/>
 			<attack-start-time value="0.15"/>
 			<attack-fields>
+				<field value="land"/>
 				<field value="air"/>
 			</attack-fields>
 			<projectile value="true">
@@ -398,22 +349,12 @@
 
 		<command>
 			<type value="attack"/>
-			<name value="attack"/>
-			<image path="images/sword_attack.bmp"/>
+			<name value="acid_webs_attack"/>
+			<image path="images/acid_webs_attack.png"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
 			<attack-skill value="attack_skill"/>
-		</command>
-
-		<command>
-			<type value="attack"/>
-			<name value="attack"/>
-			<image path="images/venom_attack.png"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<move-skill value="move_skill"/>
-			<attack-skill value="air_skill"/>
 		</command>
 
 		<command>
