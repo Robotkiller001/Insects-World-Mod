@@ -3,7 +3,7 @@
 <unit>
 	<parameters>
 		<size value="2" />
-		<height value="2" />
+		<height value="3" />
 		<ai-build-size value="4"/>
 		<max-hp value="9000" regeneration="6"/>
 		<max-ep value="0" />

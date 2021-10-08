@@ -129,6 +129,7 @@
 			<animation path="models/apiary_dead.g3d" />
 			<particles value="true">
 				<particle-file path="smoke_particles.xml"/>
+				<particle-file path="glow_particles.xml"/>
 			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/wood_die.wav"/>

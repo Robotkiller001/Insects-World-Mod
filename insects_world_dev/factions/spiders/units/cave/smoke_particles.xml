@@ -7,7 +7,7 @@
 	<direction x="2" y="5" z="0"/>
 	<color red="0.1" green="0.1" blue="0.1" alpha="0.2" />
 	<color-no-energy red="0.0" green="0.0" blue="0.0" alpha="0.0" />
-    	<radius value="0.8" />
+    	<radius value="1.4" />
     	<size value="1.4" />
     	<size-no-energy value="4" />
     	<speed value="0.2" />

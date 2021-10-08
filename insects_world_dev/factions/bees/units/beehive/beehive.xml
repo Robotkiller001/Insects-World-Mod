@@ -196,6 +196,7 @@
 			<animation path="models/beehive_die.g3d" />
 			<particles value="true">
 				<particle-file path="smoke_particles.xml"/>
+				<particle-file path="glow_particles2.xml"/>
 			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/wood_die.wav"/>
