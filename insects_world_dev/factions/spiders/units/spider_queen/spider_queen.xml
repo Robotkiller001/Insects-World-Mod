@@ -369,6 +369,22 @@
 		</command>
 
 		<command>
+			<type value="repair"/>
+			<name value="repair"/>
+			<image path="images/spider_repair.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<repair-skill value="repair_skill"/>
+			<repaired-units>
+				<unit name="egg_sac"/>
+				<unit name="cave"/>
+				<unit name="web_tower"/>
+                                <unit name="toxic_puddle"/>
+			</repaired-units>
+		</command>
+
+		<command>
 			<type value="build"/>
 			<name value="build_eggs"/>
 			<image path="images/spider_build_basic.bmp"/>
@@ -386,22 +402,6 @@
 				<sound-file path="sounds/s_build.wav"/>
 			</start-sound>
 			<built-sound enabled="false"/>
-		</command>
-
-		<command>
-			<type value="repair"/>
-			<name value="repair"/>
-			<image path="images/spider_repair.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<move-skill value="move_skill"/>
-			<repair-skill value="repair_skill"/>
-			<repaired-units>
-				<unit name="egg_sac"/>
-				<unit name="cave"/>
-				<unit name="web_tower"/>
-                                <unit name="toxic_puddle"/>
-			</repaired-units>
 		</command>
 
 		<command>

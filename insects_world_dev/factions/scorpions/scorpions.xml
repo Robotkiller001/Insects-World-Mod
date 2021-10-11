@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+
+
+<faction>
+	<starting-resources>
+		<resource name="gold" amount="400"/>
+		<resource name="wood" amount="300"/>
+		<resource name="stone" amount="300"/>
+	</starting-resources>
+	<starting-units>
+		<unit name="nest" amount="1"/>
+		<unit name="worker_scorpion" amount="4"/>
+		<unit name="punching_scorpion" amount="4"/>
+	</starting-units>
+	<music value="true" path="music/music_scorpions.ogg"/>
+	<ai-behavior>
+		<warrior-units>
+			<unit name="worker_scorpion" minimum="8"/>
+		</warrior-units>
+		<building-units>
+		</building-units>
+		<upgrades>
+		</upgrades>
+		<static-values>
+			<static type-name="MinMinWarriorsExpandCpuUltra" value="5"/>
+			<static type-name="MinMinWarriorsExpandCpuMega" value="12"/>
+		</static-values>
+	</ai-behavior>	
+</faction>
