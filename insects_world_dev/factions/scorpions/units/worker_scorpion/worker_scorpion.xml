@@ -227,6 +227,7 @@
 			<repair-skill value="repair_skill"/>
 			<repaired-units>
 				<unit name="nest"/>
+                                <unit name="food_storage"/>
 			</repaired-units>
 		</command>
 
@@ -240,6 +241,7 @@
 			<build-skill value="build_skill"/>
 			<buildings>
                                 <building name="nest"/>
+                                <building name="food_storage"/>
 			</buildings>
 			<start-sound enabled="true">
 				<sound-file path="sounds/bug1.wav"/>
