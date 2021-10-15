@@ -9,10 +9,13 @@
 		<armor value="40"/>	
 		<armor-type value="leather"/>
 		<sight value="10"/>
-		<time value="90"/>	
+		<time value="100"/>	
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
-		<levels/>
+		<levels>
+			<level name="expert" kills="8"/>
+			<level name="elite" kills="16"/>
+		</levels>
 		<fields>
 			<field value="land"/>
 		</fields>	

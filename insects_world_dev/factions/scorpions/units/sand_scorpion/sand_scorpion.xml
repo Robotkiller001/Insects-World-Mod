@@ -12,7 +12,10 @@
 		<time value="70"/>	
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
-		<levels/>
+		<levels>
+			<level name="expert" kills="6"/>
+			<level name="elite" kills="16"/>
+		</levels>
 		<fields>
 			<field value="land"/>
 		</fields>	
@@ -78,19 +81,20 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="45"/>
-			<anim-speed value="45"/>
+			<speed value="40"/>
+			<anim-speed value="40"/>
 			<animation path="models/sand_scorpion_attack.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/bug1.wav"/>
 			</sound>
-			<attack-strenght value="170"/>
+			<attack-strenght value="160"/>
 			<attack-var value="40"/>
-			<attack-range value="10"/>
+			<attack-range value="9"/>
 			<attack-type value="energy"/>
 			<attack-start-time value="0.6"/>
 			<attack-fields>
 				<field value="land"/>
+				<field value="air"/>
 			</attack-fields>
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>

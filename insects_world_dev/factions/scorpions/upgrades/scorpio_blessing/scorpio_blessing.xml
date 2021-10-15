@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="no"?>
+
+<upgrade>
+	<image path="images/scorpio_blessing.png"/>
+	<image-cancel path="images/scorpion_cancel.png"/>
+	<time value="400"/>
+	<unit-requirements/>
+	<upgrade-requirements/>
+	<upgrade-requirements/>
+	<resource-requirements>
+		<resource name="gold" amount="100"/>
+		<resource name="wood" amount="175"/>
+		<resource name="stone" amount="100"/>
+	</resource-requirements>
+	<effects>
+		<unit name="punching_scorpion"/>
+		<unit name="sand_scorpion"/>
+		<unit name="piercing_scorpion"/>
+	</effects>
+	<max-hp value="50"/>
+	<max-ep value="0"/>
+	<sight value="0"/>
+	<attack-strenght value="20"/>
+	<attack-range value="0"/>
+	<armor value="10"/>
+	<move-speed value="10"/>
+	<production-speed value="0"/>
+</upgrade>

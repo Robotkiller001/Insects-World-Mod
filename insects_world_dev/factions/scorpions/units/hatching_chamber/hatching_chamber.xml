@@ -75,7 +75,19 @@
 			<anim-speed value="300" />
 			<animation path="models/hatching_chamber_build.g3d" />
 			<sound enabled="false" />
-		</skill>	
+		</skill>
+		<skill>
+			<type value="upgrade" />
+			<name value="upgrade_skill"/>
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="40" />
+			<animation path="models/hatching_chamber.g3d" />
+			<sound enabled="false" />
+			<particles value="true">
+				<particle-file path="upgrade_particles.xml"/>
+			</particles>
+		</skill>
 		
 		<skill>
 			<type value="die" />
@@ -126,6 +138,16 @@
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="piercing_scorpion"/>
+		</command>
+
+		<command>
+			<type value="upgrade"/>
+			<name value="research_faster_eggs_hatching"/>
+			<image path="../../upgrades/faster_eggs_hatching/images/faster_eggs_hatching.png"/>
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="faster_eggs_hatching"/>
 		</command>
 
 	</commands>

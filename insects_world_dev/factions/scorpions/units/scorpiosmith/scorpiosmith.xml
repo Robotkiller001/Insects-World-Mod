@@ -26,7 +26,9 @@
 		</properties>
 		<light enabled="false"/>
 		<rotationAllowed value="true" />
-		<unit-requirements/>
+		<unit-requirements>
+			<unit name="hatching_chamber" />
+		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
 			<resource name="gold" amount="125"/>
@@ -111,6 +113,17 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="digging_claws"/>
 		</command>
+
+		<command>
+			<type value="upgrade"/>
+			<name value="research_scorpio_blessing"/>
+			<image path="../../upgrades/scorpio_blessing/images/scorpio_blessing.png"/>
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="scorpio_blessing"/>
+		</command>
+
 		<command>
 			<type value="upgrade"/>
 			<name value="research_longer_stings"/>
@@ -119,6 +132,16 @@
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="longer_stings"/>
+		</command>
+
+		<command>
+			<type value="upgrade"/>
+			<name value="research_metallic_skin"/>
+			<image path="../../upgrades/metallic_skin/images/metallic_skin.png"/>
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="metallic_skin"/>
 		</command>
 
 	</commands>
