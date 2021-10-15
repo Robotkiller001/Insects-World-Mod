@@ -11,7 +11,9 @@
 	<starting-units>
 		<unit name="nest" amount="1"/>
 		<unit name="worker_scorpion" amount="4"/>
-		<unit name="piercing_scorpion" amount="4"/>
+		<unit name="piercing_scorpion" amount="2"/>
+		<unit name="punching_scorpion" amount="2"/>
+		<unit name="sand_scorpion" amount="2"/>
 		<unit name="food_storage" amount="0"/>
 	</starting-units>
 	<music value="true" path="music/music_scorpions.ogg"/>

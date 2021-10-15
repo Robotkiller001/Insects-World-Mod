@@ -78,8 +78,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="70"/>
-			<anim-speed value="70"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
 			<animation path="models/punching_scorpion_attack1.g3d"/>
 			<animation path="models/punching_scorpion_attack2.g3d"/>
 			<sound enabled="true" start-time="0.55">
@@ -95,6 +95,16 @@
 			<attack-start-time value="0.45"/>
 			<projectile value="false"/>
 			<splash value="false"/>
+		</skill>
+
+		<skill>
+			<type value="morph"/>
+			<name value="morph_skill"/>
+			<ep-cost value="0"/>
+			<speed value="500"/>
+			<anim-speed value="25"/>
+			<animation path="models/punching_scorpion_dig.g3d"/>
+			<sound enabled="false"/>
 		</skill>
 
 		<skill>
@@ -134,7 +144,7 @@
 		<command>
 			<type value="attack_stopped"/>
 			<name value="hold_position"/>
-			<image path="../throwing_scorpion/images/scorpion_hold.png"/>
+			<image path="../sand_scorpion/images/scorpion_hold.png"/>
 			<unit-requirements/>
 			<upgrade-requirements>
 			</upgrade-requirements>
@@ -150,6 +160,17 @@
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
 			<attack-skill value="attack_skill"/>
+		</command>
+
+		<command>
+			<type value="morph"/>
+			<name value="digging"/>
+			<image path="../sand_scorpion/images/down.png"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<morph-skill value="morph_skill"/>
+			<morph-unit name= "underground_punching_scorpion"/>
+			<discount value="0"/>
 		</command>
 
 	</commands>

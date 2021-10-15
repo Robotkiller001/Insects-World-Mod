@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="2"/>
 		<height value="2"/>
-		<max-hp value="1100" regeneration="3"  start-percentage="100"/>
+		<max-hp value="1200" regeneration="3"  start-percentage="100"/>
 		<max-ep value="0"/>
 		<armor value="40"/>	
 		<armor-type value="leather"/>
@@ -78,8 +78,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="80"/>
-			<anim-speed value="80"/>
+			<speed value="70"/>
+			<anim-speed value="70"/>
 			<animation path="models/piercing_scorpion_attack.g3d"/>
 			<sound enabled="true" start-time="0.50">
 				<sound-file path="sounds/piercing_scorpion_attack.wav"/>
@@ -94,6 +94,16 @@
 			<attack-start-time value="0.40"/>
 			<projectile value="false"/>
 			<splash value="false"/>
+		</skill>
+
+		<skill>
+			<type value="morph"/>
+			<name value="morph_skill"/>
+			<ep-cost value="0"/>
+			<speed value="500"/>
+			<anim-speed value="25"/>
+			<animation path="models/piercing_scorpion_dig.g3d"/>
+			<sound enabled="false"/>
 		</skill>
 
 		<skill>
@@ -133,7 +143,7 @@
 		<command>
 			<type value="attack_stopped"/>
 			<name value="hold_position"/>
-			<image path="../throwing_scorpion/images/scorpion_hold.png"/>
+			<image path="../sand_scorpion/images/scorpion_hold.png"/>
 			<unit-requirements/>
 			<upgrade-requirements>
 			</upgrade-requirements>
@@ -150,6 +160,18 @@
 			<move-skill value="move_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
+
+		<command>
+			<type value="morph"/>
+			<name value="digging"/>
+			<image path="../sand_scorpion/images/down.png"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<morph-skill value="morph_skill"/>
+			<morph-unit name= "underground_piercing_scorpion"/>
+			<discount value="0"/>
+		</command>
+
 
 	</commands>
 </unit>
