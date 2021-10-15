@@ -228,6 +228,8 @@
 			<repaired-units>
 				<unit name="nest"/>
                                 <unit name="food_storage"/>
+                                <unit name="hatching_chamber"/>
+                                <unit name="scorpiosmith"/>
 			</repaired-units>
 		</command>
 
@@ -242,6 +244,8 @@
 			<buildings>
                                 <building name="nest"/>
                                 <building name="food_storage"/>
+                                <building name="hatching_chamber"/>
+                                <building name="scorpiosmith"/>
 			</buildings>
 			<start-sound enabled="true">
 				<sound-file path="sounds/bug1.wav"/>

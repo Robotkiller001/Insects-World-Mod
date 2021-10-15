@@ -24,7 +24,7 @@
 		</fields>
 		<properties>
 		</properties>
-		<light enabled="true" red="0.8" green="0.8" blue="0.5" />
+		<light enabled="false"/>
 		<rotationAllowed value="true" />
 		<unit-requirements/>
 		<upgrade-requirements/>

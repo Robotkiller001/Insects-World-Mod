@@ -142,6 +142,16 @@
 		</command>
 
 		<command>
+			<type value="attack"/>
+			<name value="attack"/>
+			<image path="images/punching_scorpion_attack.png"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+		<command>
 			<type value="attack_stopped"/>
 			<name value="hold_position"/>
 			<image path="../sand_scorpion/images/scorpion_hold.png"/>
@@ -149,16 +159,6 @@
 			<upgrade-requirements>
 			</upgrade-requirements>
 			<stop-skill value="stop_skill"/>
-			<attack-skill value="attack_skill"/>
-		</command>
-
-		<command>
-			<type value="attack"/>
-			<name value="attack"/>
-			<image path="images/punching_scorpion_attack.png"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<move-skill value="move_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
 
