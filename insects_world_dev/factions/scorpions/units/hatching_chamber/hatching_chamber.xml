@@ -113,7 +113,7 @@
 		<command>
 			<type value="produce"/>
 			<name value="produce_punching_scorpion" />
-			<image path="../punching_scorpion/images/worker_scorpion.png" />
+			<image path="../punching_scorpion/images/punching_scorpion.png" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
@@ -123,7 +123,7 @@
 		<command>
 			<type value="produce"/>
 			<name value="produce_sand_scorpion" />
-			<image path="../sand_scorpion/images/worker_scorpion.png" />
+			<image path="../sand_scorpion/images/sand_scorpion.png" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
@@ -133,7 +133,7 @@
 		<command>
 			<type value="produce"/>
 			<name value="produce_piercing_scorpion" />
-			<image path="../piercing_scorpion/images/worker_scorpion.png" />
+			<image path="../piercing_scorpion/images/piercing_scorpion.png" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>

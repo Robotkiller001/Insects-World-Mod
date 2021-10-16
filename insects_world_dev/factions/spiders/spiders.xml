@@ -4,7 +4,7 @@
 <faction>
 	<starting-resources>
 		<resource name="gold" amount="400"/>
-		<resource name="wood" amount="300"/>
+		<resource name="wood" amount="400"/>
 		<resource name="stone" amount="300"/>
 	</starting-resources>
 	<starting-units>
