@@ -62,7 +62,10 @@
 				<allow-multiple-boosts value="false" />
 				<radius value="12"/>
                         	<target value="faction" include-self="false">
-
+					<unit-type name="piercing_scorpion"/>
+					<unit-type name="punching_scorpion"/>
+					<unit-type name="sand_scorpion"/>
+					<unit-type name="scorpion_ram"/>
 				</target>
 				<max-hp value="0" regeneration="0"/>
 				<max-ep value="0"/>
@@ -91,7 +94,10 @@
 				<allow-multiple-boosts value="false" />
 				<radius value="12"/>
                         	<target value="faction" include-self="false">
-
+					<unit-type name="piercing_scorpion"/>
+					<unit-type name="punching_scorpion"/>
+					<unit-type name="sand_scorpion"/>
+					<unit-type name="scorpion_ram"/>
 				</target>
 				<max-hp value="0" regeneration="0"/>
 				<max-ep value="0"/>
@@ -117,6 +123,62 @@
 			<anim-speed value="300" />
 			<animation path="models/nest_build.g3d" />
 			<sound enabled="false" />
+		</skill>
+
+		<skill>
+			<type value="attack"/>
+			<name value="attack_skill"/>
+			<ep-cost value="0"/>
+			<speed value="20"/>
+			<anim-speed value="20"/>
+			<animation path="models/nest.g3d"/>
+                        <attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="12"/>
+                        	<target value="faction" include-self="false">
+					<unit-type name="piercing_scorpion"/>
+					<unit-type name="punching_scorpion"/>
+					<unit-type name="sand_scorpion"/>
+					<unit-type name="scorpion_ram"/>
+				</target>
+				<max-hp value="0" regeneration="0"/>
+				<max-ep value="0"/>
+				<sight value="0"/>
+				<attack-strenght value="40" value-percent-multiplier="true"/>
+				<attack-range value="0"/>
+				<armor value="10"/>
+				<move-speed value="0"/>
+				<production-speed value="0"/>
+				<particles value="true">
+				<!--originator-particle-file path="glow_particles.xml"/-->
+					<affected-particle-file path="glow_particles.xml"/>
+				</particles>
+                        </attack-boost>
+			<sound enabled="true" start-time="0.0">
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack2.wav"/>
+			</sound>
+			<attack-strenght value="140"/>
+			<attack-var value="40"/>
+			<attack-range value="14"/>
+			<attack-type value="castle"/>
+			<attack-start-time value="0.0"/>
+			<attack-fields>
+				<field value="land"/>
+				<field value="air"/>
+			</attack-fields>
+			<projectile value="true">
+				<particle value="true" path="particle_proj.xml"/>
+				<sound enabled="true">
+					<sound-file path="$COMMONDATAPATH/sounds/catapult_hit1.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/catapult_hit2.wav"/>
+				</sound>
+			</projectile>
+			<splash value="true">
+				<radius value="1"/>
+				<damage-all value="false"/>
+				<particle value="true" path="particle_splash.xml"/>
+			</splash>
 		</skill>	
 		
 		<skill>
@@ -139,7 +201,26 @@
 
 
 	<commands>
-	
+
+		<command>
+			<type value="stop"/>
+			<name value="attack_off"/>
+			<image path="images/scorpion_tower_off.png"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+		</command>
+
+		<command>
+			<type value="attack_stopped"/>
+			<name value="attack_on"/>
+			<image path="images/scorpion_tower_on.png"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<attack-skill value="attack_skill"/>
+			<stop-skill value="stop_skill"/>
+		</command>
+
 		<command>
 			<type value="produce"/>
 			<name value="produce_worker_scorpion" />

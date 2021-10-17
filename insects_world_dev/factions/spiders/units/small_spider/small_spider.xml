@@ -7,19 +7,19 @@
 	<parameters>
 		<size value="1"/>
 		<height value="1"/>
-		<max-hp value="900" regeneration="3"/>
+		<max-hp value="1000" regeneration="3"/>
 		<max-ep value="0"/>
-		<armor value="30"/>	
-		<armor-type value="organic"/>				
+		<armor value="35"/>	
+		<armor-type value="organic"/>
 		<sight value="9"/>
-		<time value="0"/>	
+		<time value="0"/>
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
 		<levels>
 		</levels>
 		<fields>
 			<field value="land"/>
-		</fields>	
+		</fields>
 		<properties/>
 		<light enabled="false"/>
 		<unit-requirements>
@@ -72,8 +72,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="60"/>
-			<anim-speed value="60"/>
+			<speed value="70"/>
+			<anim-speed value="70"/>
 			<animation path="models/spider_attack.g3d"/>
 			<particles value="true">
 				<particle-file path="blood_particles.xml"/>

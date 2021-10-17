@@ -59,7 +59,6 @@
 				<allow-multiple-boosts value="false" />
 				<radius value="12"/>
                         	<target value="faction" include-self="false">
-					<unit-type name="worker_spider"/>
 					<unit-type name="armored_spider"/>
 					<unit-type name="web_spitter_spider"/>
 					<unit-type name="small_spider"/>
@@ -71,7 +70,7 @@
 				<max-hp value="0" regeneration="0"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
-				<attack-strenght value="20" value-percent-multiplier="true"/>
+				<attack-strenght value="40" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
 				<armor value="10"/>
 				<move-speed value="0"/>
@@ -105,7 +104,6 @@
 				<allow-multiple-boosts value="false" />
 				<radius value="12"/>
                         	<target value="faction" include-self="false">
-					<unit-type name="worker_spider"/>
 					<unit-type name="armored_spider"/>
 					<unit-type name="web_spitter_spider"/>
 					<unit-type name="small_spider"/>
@@ -117,7 +115,7 @@
 				<max-hp value="0" regeneration="0"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
-				<attack-strenght value="20" value-percent-multiplier="true"/>
+				<attack-strenght value="40" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
 				<armor value="10"/>
 				<move-speed value="0"/>
@@ -141,7 +139,6 @@
 				<allow-multiple-boosts value="false" />
 				<radius value="12"/>
                         	<target value="faction" include-self="false">
-					<unit-type name="worker_spider"/>
 					<unit-type name="armored_spider"/>
 					<unit-type name="web_spitter_spider"/>
 					<unit-type name="small_spider"/>
@@ -153,7 +150,7 @@
 				<max-hp value="0" regeneration="0"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
-				<attack-strenght value="20" value-percent-multiplier="true"/>
+				<attack-strenght value="40" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
 				<armor value="10"/>
 				<move-speed value="0"/>
@@ -177,7 +174,6 @@
 				<allow-multiple-boosts value="false" />
 				<radius value="12"/>
                         	<target value="faction" include-self="false">
-					<unit-type name="worker_spider"/>
 					<unit-type name="armored_spider"/>
 					<unit-type name="web_spitter_spider"/>
 					<unit-type name="small_spider"/>
@@ -189,7 +185,7 @@
 				<max-hp value="0" regeneration="0"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
-				<attack-strenght value="20" value-percent-multiplier="true"/>
+				<attack-strenght value="40" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
 				<armor value="10"/>
 				<move-speed value="0"/>
@@ -213,7 +209,6 @@
 				<allow-multiple-boosts value="false" />
 				<radius value="12"/>
                         	<target value="faction" include-self="false">
-					<unit-type name="worker_spider"/>
 					<unit-type name="armored_spider"/>
 					<unit-type name="web_spitter_spider"/>
 					<unit-type name="small_spider"/>
@@ -225,7 +220,7 @@
 				<max-hp value="0" regeneration="0"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
-				<attack-strenght value="20" value-percent-multiplier="true"/>
+				<attack-strenght value="40" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
 				<armor value="10"/>
 				<move-speed value="0"/>
@@ -249,7 +244,6 @@
 				<allow-multiple-boosts value="false" />
 				<radius value="12"/>
                         	<target value="faction" include-self="false">
-					<unit-type name="worker_spider"/>
 					<unit-type name="armored_spider"/>
 					<unit-type name="web_spitter_spider"/>
 					<unit-type name="small_spider"/>
@@ -263,7 +257,7 @@
 				<sight value="0"/>
 				<attack-strenght value="40" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
-				<armor value="15"/>
+				<armor value="10"/>
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 				<particles value="true">
