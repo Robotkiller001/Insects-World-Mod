@@ -8,7 +8,7 @@
 		<max-hp value="1600" regeneration="4" start-percentage="100"/>
 		<max-ep value="750" regeneration="25" start-percentage="40"/>
 		<armor value="35"/>
-		<armor-type value="skin2x"/>
+		<armor-type value="skin"/>
 		<sight value="12"/>
 		<time value="220"/>
 		<multi-selection value="true"/>
