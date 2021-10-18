@@ -232,6 +232,7 @@
                                 <unit name="scorpiosmith"/>
                                 <unit name="advanced_scorpio_barracks"/>
                               	<unit name="scorpion_tower"/>
+                              	<unit name="blessed_tower"/>
 			</repaired-units>
 		</command>
 
@@ -250,6 +251,7 @@
                                 <building name="scorpiosmith"/>
                                 <building name="advanced_scorpio_barracks"/>
                               	<building name="scorpion_tower"/>
+                              	<building name="blessed_tower"/>
 			</buildings>
 			<start-sound enabled="true">
 				<sound-file path="sounds/bug1.wav"/>
