@@ -3,28 +3,26 @@
 <upgrade>
 	<image path="images/metallic_skin.png"/>
 	<image-cancel path="images/scorpion_cancel.png"/>
-	<time value="450"/>
+	<time value="400"/>
 	<unit-requirements>
-		<unit name="advanced_scorpio_barracks" />
 	</unit-requirements>
 	<upgrade-requirements>
-		<upgrade name="scorpio_blessing"/>
+		<upgrade name="metallic_skin"/>
 	</upgrade-requirements>
 	<resource-requirements>
 		<resource name="gold" amount="100"/>
-		<resource name="wood" amount="200"/>
+		<resource name="wood" amount="175"/>
 		<resource name="stone" amount="100"/>
 	</resource-requirements>
 	<effects>
-		<unit name="piercing_scorpion"/>
 		<unit name="scorpion_ram"/>
 	</effects>
 	<max-hp value="100"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
-	<attack-strenght value="0"/>
+	<attack-strenght value="60"/>
 	<attack-range value="0"/>
-	<armor value="25"/>
-	<move-speed value="20"/>
+	<armor value="0"/>
+	<move-speed value="0"/>
 	<production-speed value="0"/>
 </upgrade>

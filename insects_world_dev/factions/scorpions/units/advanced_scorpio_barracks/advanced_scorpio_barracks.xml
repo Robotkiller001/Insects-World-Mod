@@ -38,7 +38,7 @@
 		</resource-requirements>
 		<resources-stored>			
 		</resources-stored>
-		<image path="images/hatching_chamber.png" />
+		<image path="images/advanced_scorpio_barracks.png" />
 		<image-cancel path="../worker_scorpion/images/scorpion_cancel.png"/>
 		<meeting-point value="true" image-path="images/meeting_point.png"/>
 		<selection-sounds enabled="true">
@@ -79,6 +79,19 @@
 			<animation path="models/advanced_scorpio_barracks_build.g3d" />
 			<sound enabled="false" />
 		</skill>
+
+		<skill>
+			<type value="upgrade" />
+			<name value="upgrade_skill"/>
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/advanced_scorpio_barracks.g3d" />
+			<sound enabled="false" />
+			<particles value="true">
+				<particle-file path="upgrade_particles.xml"/>
+			</particles>
+		</skill>
 		
 		<skill>
 			<type value="die" />
@@ -104,11 +117,21 @@
 		<command>
 			<type value="produce"/>
 			<name value="produce_scorpion_ram" />
-			<image path="../scorpion_ram/images/punching_scorpion.png" />
+			<image path="../scorpion_ram/images/scorpion_ram.png" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="scorpion_ram"/>
+		</command>
+
+		<command>
+			<type value="upgrade"/>
+			<name value="research_advanced_mechanic"/>
+			<image path="../../upgrades/advanced_mechanic/images/advanced_mechanic.png"/>
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="advanced_mechanic"/>
 		</command>
 
 	</commands>
