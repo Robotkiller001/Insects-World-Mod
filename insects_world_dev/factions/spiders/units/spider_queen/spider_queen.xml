@@ -11,7 +11,7 @@
 		<max-ep value="0"/>
 		<armor value="40"/>	
 		<armor-type value="organic2x"/>
-		<max-unit-count value="4"/>			
+		<max-unit-count value="5"/>			
 		<sight value="14"/>
 		<time value="200"/>	
 		<multi-selection value="true"/>
