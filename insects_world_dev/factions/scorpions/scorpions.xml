@@ -18,7 +18,7 @@
 	<music value="true" path="music/music_scorpions.ogg"/>
 	<ai-behavior>
 		<warrior-units>
-			<unit name="worker_scorpion" minimum="8"/>
+			<unit name="worker_scorpion" minimum="6"/>
 		</warrior-units>
 		<building-units>
 		</building-units>
