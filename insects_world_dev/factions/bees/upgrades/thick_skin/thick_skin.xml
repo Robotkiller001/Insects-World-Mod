@@ -14,7 +14,7 @@
 		<unit name="archer_bee"/>
 		<unit name="swarm_of_bees"/>
 	</effects>
-	<max-hp value="250"/>
+	<max-hp value="200"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strenght value="0"/>
