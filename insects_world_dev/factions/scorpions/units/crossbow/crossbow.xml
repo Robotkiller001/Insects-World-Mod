@@ -35,7 +35,7 @@
 		<image-cancel path="../worker_scorpion/images/scorpion_cancel.png"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="sounds/bug1.wav"/>
+			<sound path="sounds/click.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="false"/>
 	</parameters>
@@ -120,7 +120,7 @@
 			<anim-speed value="50"/>
 			<animation path="models/crossbow_die.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/bug1.wav"/>
+				<sound-file path="sounds/medium_build_fall.wav"/>
 			</sound>			
 			<fade value="false"/>
 			<particles value="true">
