@@ -125,6 +125,16 @@
 		</command>
 
 		<command>
+			<type value="produce"/>
+			<name value="produce_crossbow" />
+			<image path="../crossbow/images/scorpion_ram.png" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="crossbow"/>
+		</command>
+
+		<command>
 			<type value="upgrade"/>
 			<name value="research_advanced_mechanic"/>
 			<image path="../../upgrades/advanced_mechanic/images/advanced_mechanic.png"/>
