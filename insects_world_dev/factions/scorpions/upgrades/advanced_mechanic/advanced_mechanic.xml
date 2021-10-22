@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/metallic_skin.png"/>
 	<image-cancel path="images/scorpion_cancel.png"/>
-	<time value="400"/>
+	<time value="450"/>
 	<unit-requirements>
 	</unit-requirements>
 	<upgrade-requirements>

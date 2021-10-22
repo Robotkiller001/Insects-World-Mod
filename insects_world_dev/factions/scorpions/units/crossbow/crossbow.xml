@@ -33,7 +33,7 @@
 			<resource name="food" amount="4"/>
 		</resource-requirements>
 		<resources-stored/>
-		<image path="images/scorpion_ram.png"/>
+		<image path="images/crossbow.png"/>
 		<image-cancel path="../worker_scorpion/images/scorpion_cancel.png"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">

@@ -127,7 +127,7 @@
 		<command>
 			<type value="produce"/>
 			<name value="produce_crossbow" />
-			<image path="../crossbow/images/scorpion_ram.png" />
+			<image path="../crossbow/images/crossbow.png" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>

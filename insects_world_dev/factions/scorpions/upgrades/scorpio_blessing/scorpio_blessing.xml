@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/scorpio_blessing.png"/>
 	<image-cancel path="images/scorpion_cancel.png"/>
-	<time value="400"/>
+	<time value="450"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<upgrade-requirements/>
@@ -20,7 +20,7 @@
 	<max-hp value="50"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
-	<attack-strenght value="20"/>
+	<attack-strenght value="30"/>
 	<attack-range value="0"/>
 	<armor value="10"/>
 	<move-speed value="10"/>

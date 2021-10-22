@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/metallic_skin.png"/>
 	<image-cancel path="images/scorpion_cancel.png"/>
-	<time value="450"/>
+	<time value="400"/>
 	<unit-requirements>
 		<unit name="advanced_scorpio_barracks" />
 	</unit-requirements>
