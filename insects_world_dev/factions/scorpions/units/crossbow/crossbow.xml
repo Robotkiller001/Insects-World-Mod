@@ -98,6 +98,7 @@
 			<attack-type value="impact"/>
 			<attack-fields>
 				<field value="land"/>
+				<field value="air"/>
 			</attack-fields>
 			<attack-start-time value="0.14"/>
 			<projectile value="true">
