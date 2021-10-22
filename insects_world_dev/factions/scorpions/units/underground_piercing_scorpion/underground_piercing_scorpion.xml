@@ -52,7 +52,7 @@
 			<type value="morph"/>
 			<name value="morph_skill"/>
 			<ep-cost value="0"/>
-			<speed value="4000"/>
+			<speed value="4250"/>
 			<anim-speed value="80"/>
 			<animation path="models/underground_scorpion.g3d"/>
 			<sound enabled="false"/>

@@ -17,6 +17,7 @@
 	</resource-requirements>
 	<effects>
 		<unit name="piercing_scorpion"/>
+		<unit name="scorpion_slicer"/>
 		<unit name="scorpion_ram"/>
 	</effects>
 	<max-hp value="100"/>

@@ -141,6 +141,16 @@
 		</command>
 
 		<command>
+			<type value="produce"/>
+			<name value="produce_scorpion_slicer" />
+			<image path="../scorpion_slicer/images/scorpion_slicer.png" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="scorpion_slicer"/>
+		</command>
+
+		<command>
 			<type value="upgrade"/>
 			<name value="research_faster_eggs_hatching"/>
 			<image path="../../upgrades/faster_eggs_hatching/images/faster_eggs_hatching.png"/>

@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="0"/>
 		<height value="0"/>
-		<max-hp value="1000" regeneration="12" start-percentage="100"/>
+		<max-hp value="1400" regeneration="16" start-percentage="100"/>
 		<max-ep value="0"/>
 		<armor value="15"/>	
 		<armor-type value="leather"/>
@@ -52,7 +52,7 @@
 			<type value="morph"/>
 			<name value="morph_skill"/>
 			<ep-cost value="0"/>
-			<speed value="3250"/>
+			<speed value="4750"/>
 			<anim-speed value="80"/>
 			<animation path="models/underground_scorpion.g3d"/>
 			<sound enabled="false"/>
@@ -64,7 +64,7 @@
 			<ep-cost value="0"/>
 			<speed value="120"/>
 			<anim-speed value="40"/>
-			<animation path="models/punching_scorpion_die.g3d"/>
+			<animation path="models/scorpion_slicer_die.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/bug1.wav"/>
 			</sound>			
@@ -81,7 +81,7 @@
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<morph-skill value="morph_skill"/>
-			<morph-unit name= "punching_scorpion"/>
+			<morph-unit name= "piercing_scorpion"/>
 			<discount value="100"/>
 		</command>
 
