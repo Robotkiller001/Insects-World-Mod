@@ -5,17 +5,17 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="1600" regeneration="4" start-percentage="100"/>
+		<max-hp value="1500" regeneration="4" start-percentage="100"/>
 		<max-ep value="750" regeneration="25" start-percentage="40"/>
-		<armor value="40"/>
+		<armor value="35"/>
 		<armor-type value="skin"/>
-		<sight value="12"/>
+		<sight value="13"/>
 		<time value="220"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="killer" kills="8"/>
-			<level name="expert" kills="20"/>
+			<level name="killer" kills="12"/>
+			<level name="expert" kills="26"/>
 		</levels>
 		<fields>
 			<field value="air"/>
@@ -90,8 +90,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="300"/>
-			<speed value="40"/>
-			<anim-speed value="40"/>
+			<speed value="50"/>
+			<anim-speed value="50"/>
 			<animation path="models/queen_bee_attack.g3d"/>
 			<sound enabled="true" start-time="0.0">
 				<sound-file path="sounds/bee1.wav"/>
@@ -100,7 +100,7 @@
 				<sound-file path="sounds/bee4.wav"/>
 				<sound-file path="sounds/bee5.wav"/>
 			</sound>
-			<attack-strenght value="190"/>
+			<attack-strenght value="180"/>
 			<attack-var value="50"/>
 			<attack-range value="7"/>
 			<attack-type value="energy"/>
