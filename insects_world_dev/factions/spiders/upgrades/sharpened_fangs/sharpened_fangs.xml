@@ -14,7 +14,6 @@
 	<effects>
 		<unit name="armored_spider"/>
 		<unit name="baby_spider_queen"/>
-		<unit name="spider_queen"/>
 	</effects>
 	<max-hp value="0"/>
 	<max-ep value="0"/>

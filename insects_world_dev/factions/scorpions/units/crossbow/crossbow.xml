@@ -9,7 +9,7 @@
 		<armor value="80"/>	
 		<armor-type value="wood"/>
 		<max-unit-count value="1"/>
-		<sight value="14"/>
+		<sight value="15"/>
 		<time value="240"/>	
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
@@ -75,8 +75,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="60"/>
-			<anim-speed value="50"/>
+			<speed value="100"/>
+			<anim-speed value="70"/>
 			<animation path="models/crossbow_move.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -92,10 +92,10 @@
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack2.wav"/>
 			</sound>
-			<attack-strenght value="600"/>
-			<attack-var value="150"/>
+			<attack-strenght value="500"/>
+			<attack-var value="100"/>
 			<attack-range value="14"/>
-			<attack-type value="impact"/>
+			<attack-type value="energy"/>
 			<attack-fields>
 				<field value="land"/>
 				<field value="air"/>
