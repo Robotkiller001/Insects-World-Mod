@@ -2,12 +2,12 @@
 
 <unit>
 	<parameters>
-		<size value="2"/>
-		<height value="2"/>
-		<max-hp value="1500" regeneration="4"  start-percentage="100"/>
+		<size value="1"/>
+		<height value="1"/>
+		<max-hp value="1200" regeneration="4"  start-percentage="100"/>
 		<max-ep value="0"/>
 		<armor value="40"/>	
-		<armor-type value="leather2x"/>
+		<armor-type value="leather"/>
 		<sight value="10"/>
 		<time value="120"/>	
 		<multi-selection value="true"/>	
@@ -94,7 +94,7 @@
 				<sound-file path="sounds/scorpion_slicer_attack2.wav"/>
 				<sound-file path="sounds/scorpion_slicer_attack3.wav"/>
 			</sound>
-			<attack-strenght value="210"/>
+			<attack-strenght value="200"/>
 			<attack-var value="50"/>
 			<attack-range value="1"/>
 			<attack-type value="sword"/>
