@@ -16,7 +16,7 @@
 		<cellmap value="false"/>
 		<levels>
 			<level name="master" kills="6"/>
-			<level name="queen" kills="12"/>
+			<level name="queen" kills="18"/>
 		</levels>
 		<fields>
 			<field value="land"/>
