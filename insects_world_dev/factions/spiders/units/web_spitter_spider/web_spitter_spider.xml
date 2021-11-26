@@ -17,7 +17,6 @@
 		<cellmap value="false"/>
 		<levels>
 			<level name="mad" kills="6"/>
-			<level name="poisonous" kills="14"/>
 		</levels>
 		<fields>
 			<field value="land"/>
