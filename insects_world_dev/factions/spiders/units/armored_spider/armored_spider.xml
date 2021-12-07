@@ -76,8 +76,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="240"/>
-			<anim-speed value="170"/>
+			<speed value="230"/>
+			<anim-speed value="165"/>
 			<animation path="models/armored_spider_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>

@@ -79,7 +79,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="280"/>
+			<speed value="270"/>
 			<anim-speed value="130"/>
 			<animation path="models/hanging_spider_walk.g3d"/>
 			<sound enabled="false"/>

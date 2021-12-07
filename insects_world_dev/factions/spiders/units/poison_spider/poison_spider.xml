@@ -78,8 +78,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="200"/>
-			<anim-speed value="140"/>
+			<speed value="190"/>
+			<anim-speed value="135"/>
 			<animation path="models/spider_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>
