@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/metallic_skin.png"/>
 	<image-cancel path="images/scorpion_cancel.png"/>
-	<time value="450"/>
+	<time value="400"/>
 	<unit-requirements>
 	</unit-requirements>
 	<upgrade-requirements>
@@ -17,12 +17,12 @@
 	<effects>
 		<unit name="scorpion_ram"/>
 	</effects>
-	<max-hp value="100"/>
+	<max-hp value="0"/>
 	<max-ep value="0"/>
-	<sight value="0"/>
+	<sight value="1"/>
 	<attack-strenght value="60"/>
 	<attack-range value="0"/>
-	<armor value="10"/>
-	<move-speed value="0"/>
+	<armor value="0"/>
+	<move-speed value="10"/>
 	<production-speed value="0"/>
 </upgrade>
