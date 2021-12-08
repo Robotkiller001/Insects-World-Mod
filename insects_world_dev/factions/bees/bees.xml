@@ -9,8 +9,8 @@
 		<unit name="beehive" amount="1"/>
 		<unit name="defence_bee_tower" amount="1"/>
 		<unit name="worker_bee" amount="4"/>
-		<unit name="bee_factory" amount="0"/>
-		<unit name="queen_bee" amount="0"/>
+		<unit name="swarm_of_bees" amount="0"/>
+		<unit name="magic_bee" amount="0"/>
 	</starting-units>
 	<music value="true" path="music/music_bee.ogg"/>
 	<ai-behavior>
