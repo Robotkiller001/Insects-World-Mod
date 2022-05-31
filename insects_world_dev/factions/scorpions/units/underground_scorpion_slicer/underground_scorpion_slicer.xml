@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="0"/>
 		<height value="0"/>
-		<max-hp value="1300" regeneration="16" start-percentage="100"/>
+		<max-hp value="1400" regeneration="20" start-percentage="100"/>
 		<max-ep value="0"/>
 		<armor value="15"/>	
 		<armor-type value="leather"/>
@@ -82,7 +82,7 @@
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<morph-skill value="morph_skill"/>
-			<morph-unit name= "piercing_scorpion"/>
+			<morph-unit name= "scorpion_slicer"/>
 			<discount value="100"/>
 		</command>
 
