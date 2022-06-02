@@ -73,8 +73,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="200"/>
-			<anim-speed value="200"/>
+			<speed value="180"/>
+			<anim-speed value="180"/>
 			<animation path="models/scorpion_tower_attack.g3d"/>
 			<sound enabled="true" start-time="0.0">
 				<sound-file path="sounds/eagle_attack1.wav"/>
@@ -82,7 +82,7 @@
 				<sound-file path="sounds/eagle_attack3.wav"/>
 				<sound-file path="sounds/eagle_attack4.wav"/>
 			</sound>
-			<attack-strenght value="180"/>
+			<attack-strenght value="190"/>
 			<attack-var value="50"/>
 			<attack-range value="12"/>
 			<attack-type value="castle"/>
