@@ -238,7 +238,7 @@
 
 		<command>
 			<type value="build"/>
-			<name value="build_hives"/>
+			<name value="build_nest"/>
 			<image path="images/scorpion_build.png"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
