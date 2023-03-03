@@ -13,7 +13,8 @@
 		<unit name="scorpion_tower" amount="1"/>
 		<unit name="worker_scorpion" amount="4"/>
 		<unit name="crossbow" amount="0"/>
-		<unit name="scorpion_slicer" amount="0"/>
+		<unit name="sand_scorpion" amount="0"/>
+		<unit name="underground_piercing_scorpion" amount="0"/>
 	</starting-units>
 	<music value="true" path="music/music_scorpions.ogg"/>
 	<ai-behavior>
